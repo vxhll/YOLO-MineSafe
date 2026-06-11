@@ -192,6 +192,15 @@ GitHub: https://github.com/vxhll
 
 ---
 
-# 📜 License
+## 📚 Citation
 
-This project is intended for **educational, academic, and research purposes**. Please obtain appropriate permission before using it in commercial applications.
+If you use this project in research or academic work, please cite:
+
+**YOLO-MineSafe: A Vision-Based Abnormal Fall Detection and Emergency Alert Framework for Isolated Mining Workers**
+
+Published in **IJSART**, Volume 12, Issue 4 (April 2026).
+
+
+## 📜 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
