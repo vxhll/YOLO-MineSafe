@@ -1,0 +1,223 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Fall Detection</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="static/assets/img/favicon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="static/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="static/assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="static/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="static/assets/css/themify-icons.css">
+    <link rel="stylesheet" href="static/assets/css/nice-select.css">
+    <link rel="stylesheet" href="static/assets/css/flaticon.css">
+    <link rel="stylesheet" href="static/assets/css/gijgo.css">
+    <link rel="stylesheet" href="static/assets/css/animate.css">
+    <link rel="stylesheet" href="static/assets/css/slicknav.css">
+    <link rel="stylesheet" href="static/assets/css/style.css">
+    <!-- <link rel="stylesheet" href="static/assets/css/responsive.css"> -->
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+
+    <!-- header-start -->
+    <header>
+        <div class="header-area ">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-3 col-lg-3">
+                            <div class="logo-img">
+                                <a href="#">
+                                  <h2 style="color:white;">Fall Detection</h2>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-9 col-lg-9">
+                            <div class="menu_wrap d-none d-lg-block">
+                                <div class="menu_wrap_inner d-flex align-items-center justify-content-end">
+                                    <div class="main-menu">
+                                        <nav>
+                                            <ul id="navigation">
+                                                 {% include 'menu/user.html' %}
+
+                                            </ul>
+                                        </nav>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-end -->
+        <div>
+    <img src="static/assets/img/banner/emergency_1.jpg" alt="Noting" class="img1" style="width: 100%; height: 400px; object-fit: cover;">
+</div>
+
+      <!--/serices-6-->
+  <section class="w3l-serices-6 py-5" id="services1">
+    <div class="container py-lg-5 py-md-4 py-2">
+      <div class="title-content text-center">
+
+        <h2 class="title-w3l mb-sm-5 mb-4 pb-sm-o pb-2 text-center">User Personal Details</h2>
+      </div>
+
+   <!--./ EVENT SECTION END -->
+    <section id="contact">
+        <div class="container">
+
+
+            <div style="margin-bottom:12%;">
+     <table width="100%" border="1" align="center" class="contactct-fm map-content-9">
+              <tr style="color:white;">
+
+
+                <td bgcolor="#2196F3"><div align="center" class="contacts12-main"><strong>Name</strong></div></td>
+                 <td bgcolor="#2196F3"><div align="center" class="contacts12-main"><strong>Mobile</strong></div></td>
+                <td bgcolor="#2196F3"><div align="center" class="contacts12-main"><strong>EmailId</strong></div></td>
+                  <td bgcolor="#2196F3"><div align="center" class="contacts12-main"><strong>Adress</strong></div></td>
+                   <td bgcolor="#2196F3"><div align="center" class="contacts12-main"><strong>UserName</strong></div></td>
+                <td bgcolor="#2196F3"><div align="center" class="contacts12-main"><strong>Profile</strong></div></td>
+              </tr>
+			  {% for item in data %}
+              <tr>
+
+                <td><div align="center">{{item[1]}}</div></td>
+                <td><div align="center">{{item[2]}}</div></td>
+                <td><div align="center">{{item[3]}}</div></td>
+                <td><div align="center">{{item[4]}}</div></td>
+                <td><div align="center">{{item[6]}}</div></td>
+                  <td><div align="center"><img src="static/assets/profile/{{item[7]}}" width="100" height="100"></div></td>
+
+              </tr>
+			  {% endfor %}
+
+            </table>
+
+</div>
+
+        </div>
+    </section>
+    <!--./ Contact End -->
+
+
+
+
+
+      </div>
+    </div>
+  </section>
+  <!--//services-6-->
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+
+        <div class="copy-right_text">
+            <div class="container">
+                <div class="row">
+                    <div class="bordered_1px "></div>
+                    <div class="col-xl-12">
+                        <p class="copy_right text-center">
+                            <p align="center">
+  Copyright &copy; All rights reserved |  <i class="ti-heart" aria-hidden="true"></i> by <a href="#">Fall Detection</a>
+  </p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- link that opens popup -->
+
+
+
+    <!-- JS here -->
+    <script src="static/assets/js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="static/assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="static/assets/js/popper.min.js"></script>
+    <script src="static/assets/js/bootstrap.min.js"></script>
+    <script src="static/assets/js/owl.carousel.min.js"></script>
+    <script src="static/assets/js/isotope.pkgd.min.js"></script>
+    <script src="static/assets/js/ajax-form.js"></script>
+    <script src="static/assets/js/waypoints.min.js"></script>
+    <script src="static/assets/js/jquery.counterup.min.js"></script>
+    <script src="static/assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="static/assets/js/scrollIt.js"></script>
+    <script src="static/assets/js/jquery.scrollUp.min.js"></script>
+    <script src="static/assets/js/wow.min.js"></script>
+    <script src="static/assets/js/nice-select.min.js"></script>
+    <script src="static/assets/js/jquery.slicknav.min.js"></script>
+    <script src="static/assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="static/assets/js/plugins.js"></script>
+    <script src="static/assets/js/gijgo.min.js"></script>
+    <!--contact js-->
+    <script src="static/assets/js/contact.js"></script>
+    <script src="static/assets/js/jquery.ajaxchimp.min.js"></script>
+    <script src="static/assets/js/jquery.form.js"></script>
+    <script src="static/assets/js/jquery.validate.min.js"></script>
+    <script src="static/assets/js/mail-script.js"></script>
+
+    <script src="static/assets/js/main.js"></script>
+    <script>
+        $('.datepicker').datepicker({
+            iconsLibrary: 'fontawesome',
+            icons: {
+                rightIcon: '<span class="fa fa-calendar"></span>'
+            }
+        });
+
+        $('.timepicker').timepicker({
+            iconsLibrary: 'fontawesome',
+            icons: {
+                rightIcon: '<span class="fa fa-clock-o"></span>'
+            }
+        });
+    $(document).ready(function() {
+    $('.js-example-basic-multiple').select2();
+});
+    </script>
+<!-- Flash Notification -->
+            {% with messages = get_flashed_messages() %}
+            {% if messages %}
+            <script>
+                var messages = {{ messages | safe }};
+                for (var i=0; i<messages.length; i++) {
+                alert(messages[i]);
+                }
+             </script>
+            {% endif %}
+            {% endwith %}
+     <!-- Flash Notification -->
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+# Ignore virtual environments
+.venv/
+venv/
+
+# Ignore IDE settings
+.idea/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore datasets and generated outputs
+datasets/
+runs/
+
+# Ignore model weights
+*.pt
+
+# Ignore temporary files
+fallypy_root.txt
+run.txt
